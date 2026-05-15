@@ -1,0 +1,13 @@
+# Compiled Executables
+*.exe
+*.out
+*.o
+*.obj
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files (so everyone doesn't overwrite each other's logs in Git)
+logs/*.csv
+logs/*.txt
