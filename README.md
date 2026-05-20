@@ -1,6 +1,3 @@
-//start of readme
-//update later
-
 Project Overview & Contributor Guide
 
 Objective: Build a modular, safety-critical Lithium-ion Battery Management System(BMS) IN C++.
