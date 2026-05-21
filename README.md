@@ -1,14 +1,18 @@
-Project Overview & Contributor Guide
+# Project Overview & Contributor Guide
 
-Objective: Build a modular, safety-critical Lithium-ion Battery Management System(BMS) IN C++.
-Each contributor owns exactly one module. Every module integrates into a shared main.cpp orchestration layer.
+## Objective
 
+Build a modular, safety-critical Lithium-ion Battery Management System (BMS) in C++.
 
-Similar architecture is used in Software Defined Vehicles which run embedded BMS firmware that monitors cells at the millisecond level. 
+Each contributor owns exactly one module. Every module integrates into a shared `main.cpp` orchestration layer.
 
-The project enhances a few skills:
-Heap Memory Management
-Exception Handling
-Function templates
-Collaborative Git workflow
+Similar architecture is used in Software Defined Vehicles which run embedded BMS firmware that monitors cells at the millisecond level.
 
+---
+
+## Skills Enhanced
+
+1. Heap Memory Management  
+2. Exception Handling  
+3. Function Templates  
+4. Collaborative Git Workflow
