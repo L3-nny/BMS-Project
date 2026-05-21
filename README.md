@@ -9,4 +9,6 @@ Similar architecture is used in Software Defined Vehicles which run embedded BMS
 The project enhances a few skills:
 Heap Memory Management
 Exception Handling
+Function templates
+Collaborative Git workflow
 
