@@ -6,3 +6,7 @@ Each contributor owns exactly one module. Every module integrates into a shared 
 
 Similar architecture is used in Software Defined Vehicles which run embedded BMS firmware that monitors cells at the millisecond level. 
 
+The project enhances a few skills:
+Heap Memory Management
+Exception Handling
+
