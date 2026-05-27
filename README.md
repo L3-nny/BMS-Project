@@ -28,3 +28,10 @@ BMS-Project/               ← Repository Root
 │   ├── task3_auditor.cpp
 │   ├── task4_health.cpp
 │   ├── task5_thermal.cpp
+│   ├── task6_balancer.cpp
+│   ├── task7_recovery.cpp
+│   ├── task8_soc.cpp
+│   └── main.cpp           ← DO NOT TOUCH THIS
+├── logs/                  ← DATA OUTPUT (post-simulation analysis)
+│   └── bms_report.csv     ← Generated at runtime; added to .gitignore file
+└── .gitignore             ← Blocks .exe, .vscode, logs/ from remote
