@@ -19,6 +19,8 @@ Similar architecture is used in Software Defined Vehicles which run embedded BMS
 
 
 ## Repository Layout
+
+```text
 BMS-Project/               ← Repository Root
 ├── include/               ← INTERFACE LAYER
 │   └── BMS_Foundation.h   ← Shared header — READ ONLY after architecture review
@@ -35,3 +37,4 @@ BMS-Project/               ← Repository Root
 ├── logs/                  ← DATA OUTPUT (post-simulation analysis)
 │   └── bms_report.csv     ← Generated at runtime; added to .gitignore file
 └── .gitignore             ← Blocks .exe, .vscode, logs/ from remote
+```
