@@ -38,3 +38,6 @@ BMS-Project/               ← Repository Root
 │   └── bms_report.csv     ← Generated at runtime; added to .gitignore file
 └── .gitignore             ← Blocks .exe, .vscode, logs/ from remote
 ```
+
+## Master Header Protocol
+The repository has a [`include/BMS_Foundation.h`](./include/BMS-Foundation.h)is the single source of truth for all data types in the project.
