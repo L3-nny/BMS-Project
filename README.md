@@ -40,4 +40,13 @@ BMS-Project/               ← Repository Root
 ```
 
 ## Master Header Protocol
-The repository has a [`include/BMS_Foundation.h`](./include/BMS-Foundation.h)is the single source of truth for all data types in the project.
+The repository has a [`include/BMS_Foundation.h`](./include/BMS-Foundation.h)is the single source of truth for all data types in the project. Do not add new structs, enums or global variables without an architecture review.
+
+## Tasks
+
+1. Physics Engine
+Responsibility: Simulate real-world hardware behaviour specifically Voltage Sag and Peukert's Effect.
+
+Core Formula
+V_current = V_prev - (loadAmps × cell.internalResistance )
+Voltage Sag: Internal resistance causes an immediate votlage drop under a load. 
