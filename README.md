@@ -52,3 +52,7 @@ The repository has a [`include/BMS_Foundation.h`](./include/BMS-Foundation.h)is 
 
 ```text
 V_current = V_prev - (loadAmps × cell.internalResistance)
+```
+
+### Voltage Recovery
+If loadAmps == 0, the cell is resting. Voltage creeps back towards the nominal value of 3.7V at 0.01V per simulated hour.
