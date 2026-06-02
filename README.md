@@ -44,9 +44,11 @@ The repository has a [`include/BMS_Foundation.h`](./include/BMS-Foundation.h)is 
 
 ## Tasks
 
-1. Physics Engine
-Responsibility: Simulate real-world hardware behaviour specifically Voltage Sag and Peukert's Effect.
+## 1. Physics Engine
 
-Core Formula
-V_current = V_prev - (loadAmps × cell.internalResistance )
-Voltage Sag: Internal resistance causes an immediate voltage drop under a load. 
+**Responsibility:** Simulate real-world hardware behaviour specifically Voltage Sag and Peukert's Effect.
+
+### Core Formula
+
+```text
+V_current = V_prev - (loadAmps × cell.internalResistance)
