@@ -49,4 +49,4 @@ Responsibility: Simulate real-world hardware behaviour specifically Voltage Sag 
 
 Core Formula
 V_current = V_prev - (loadAmps × cell.internalResistance )
-Voltage Sag: Internal resistance causes an immediate votlage drop under a load. 
+Voltage Sag: Internal resistance causes an immediate voltage drop under a load. 
